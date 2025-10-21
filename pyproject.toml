@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "usethat"
+version = "0.1.0"
+description = "Inspired by R's `usethis` package..."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Daniel Heimgartner", email = "d.heimgartners@gmail.com" }]
+dependencies = [
+    "requests>=2.25",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
