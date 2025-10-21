@@ -7,10 +7,12 @@ name = "usethat"
 version = "0.1.0"
 description = "Inspired by R's `usethis` package..."
 readme = "README.md"
-license = { file = "LICENSE" }
+requires-python = ">=3.10"
+# license = { file = "LICENSE" }
 authors = [{ name = "Daniel Heimgartner", email = "d.heimgartners@gmail.com" }]
 dependencies = [
     "requests>=2.25",
+    "click (>=8.3.0,<9.0.0)",
 ]
 
 [tool.setuptools.packages.find]
