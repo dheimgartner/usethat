@@ -19,4 +19,4 @@ dependencies = [
 where = ["src"]
 
 [project.scripts]
-usethat = "usethat.console:run"
+usethat = "usethat.cli:cli"
